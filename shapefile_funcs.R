@@ -74,8 +74,8 @@ get_sf_file_param <- function(geo_level_filt, vintage_filt){
 load_county_df <- function(){
   
   cfc <- data.frame(
-    county_name = c("Bladen", "Brunswick", "Columbus", "New Hanover", "Onslow", "Pender"),
-    county_id = c("017", "019", "047", "129", "133", "141"),
+    county_name = c("Bladen", "Brunswick", "Columbus", "New Hanover", "Onslow", "Pender", "Robeson", "Duplin"),
+    county_id = c("017", "019", "047", "129", "133", "141", "155", "061"),
     stringsAsFactors = FALSE
   )
   
