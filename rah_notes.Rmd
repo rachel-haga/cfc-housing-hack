@@ -1,0 +1,16 @@
+```{r}
+library(tidyverse)
+library(zeallot)
+source('shapefile_funcs.R')
+```
+
+```{r}
+cfc_tracts_2010 <- shape_cfeaR("tract", 2010)
+```
+
+
+# Eviction Data
+
+# Zillow Data
+
+#
